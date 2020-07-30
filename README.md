@@ -1,8 +1,10 @@
 # wechat_chat_analytics
 
-## 如何导出微信数据库
+This repo's target audiences are Wechat users. Currently, the decryption of Wechat databases is written only in Chinese. English version is one of the issues to solve.
 
-### 第一步：用Bluestacks把EnMicroMsg.db复制出来
+## 如何导出微信数据库 (How to export and decrpyt wechat database)
+
+### 第一步：用Bluestacks把EnMicroMsg.db复制出来(Step 1: Copy EnMicroMsg.db out using Android VM on your computer)
 可以参考[这个网页](https://www.jianshu.com/p/3065087ea1b0)，我和这个教程不同的地方在于我用的Bluestacks没有开启root权限这么神奇的功能，所以我在Bluestacks上使用了BSTweaker修改root权限。而且第二个和它不同的地方我必须给钱买了一个root file explorer才能把EnMicroMsg.db复制出来。这个我有时间再写个详细教程吧。
 
 ### 第二步：用sqlcipher新版本（3.x, 默认不向下兼容!!!!)破解数据库
