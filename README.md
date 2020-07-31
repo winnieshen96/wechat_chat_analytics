@@ -2,6 +2,23 @@
 
 Discover unexpected trends or habits in chat between you and your friends!
 
+Visualize your chat statistics in the following ways.
+
+Frequency in hours:
+![alt text][hours]
+
+Frequency in weekdays:
+![alt text][weekdays]
+
+Frequency in years:
+![alt text][years]
+
+Frequency in dates:
+![alt text][dates]
+
+Heatmap of chat in every hour of every day:
+![alt text][heatmap]
+
 This repo's target audiences are Wechat users. Currently, the decryption of Wechat databases is written only in Chinese. English version is one of the issues to solve.
 
 ## 如何导出微信数据库 (How to export and decrypt wechat database)
@@ -11,3 +28,13 @@ This repo's target audiences are Wechat users. Currently, the decryption of Wech
 
 ### 第二步：用sqlcipher新版本（3.x, 默认不向下兼容!!!!)破解数据库(Step 2: Use sqlcipher to decrypt EnMicroMsg.db)
 具体请参考[这个网页](https://www.sy2k.com/2018/%E5%BE%AE%E4%BF%A1%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AF%BC%E5%87%BA%E5%B9%B6%E7%A0%B4%E8%A7%A3/)，这个教程最详细、最实用，里面包含了sqlcipher的文件。不熟悉cmd的人可能会用得别扭一点，但是跟着这个教程一一输入就好了。
+
+[hours]: https://github.com/winnieshen96/wechat_chat_analytics/blob/master/plots/hours.png
+
+[weekdays]: https://github.com/winnieshen96/wechat_chat_analytics/blob/master/plots/weekday.png
+
+[years]: https://github.com/winnieshen96/wechat_chat_analytics/blob/master/plots/years.png
+
+[dates]: https://github.com/winnieshen96/wechat_chat_analytics/blob/master/plots/date/2015.png
+
+[heatmap]: https://github.com/winnieshen96/wechat_chat_analytics/blob/master/plots/hour/2015.png
