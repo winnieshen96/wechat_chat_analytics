@@ -1,5 +1,7 @@
 # wechat_chat_analytics
 
+Discover unexpected trends or habits in chat between you and your friends!
+
 This repo's target audiences are Wechat users. Currently, the decryption of Wechat databases is written only in Chinese. English version is one of the issues to solve.
 
 ## 如何导出微信数据库 (How to export and decrypt wechat database)
