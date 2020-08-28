@@ -4,19 +4,21 @@ Discover unexpected trends or habits in chat between you and your friends!
 
 Visualize your chat statistics in the following ways.
 
-Frequency in hours:
+### Frequency in hours:
+
 ![alt text][hours]
 
-Frequency in weekdays:
+### Frequency in weekdays:
+
 ![alt text][weekdays]
 
-Frequency in years:
+### Frequency in years:
 ![alt text][years]
 
-Frequency in dates:
+### Frequency in dates:
 ![alt text][dates]
 
-Heatmap of chat in every hour of every day:
+### Heatmap of chat in every hour of every day:
 ![alt text][heatmap]
 
 This repo's target audiences are Wechat users. Currently, the decryption of Wechat databases is written only in Chinese. English version is one of the issues to solve.
